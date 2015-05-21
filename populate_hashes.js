@@ -3,11 +3,11 @@ var db = require('./server/database');
 var lib = require('./server/lib');
 var _ = require('lodash');
 
-var offset = 1e6;
+var offset = 1;
 
 var games = 1e6;  // You might want to make this 10M for a prod setting..
 var game = games;
-var serverSeed = 'DO NOT USE THIS SEED';
+var serverSeed = 'motherfucker2394734895789rorr754938y43hrjkfner';
 
 function loop(cb) {
     var parallel = Math.min(game, 1000);
